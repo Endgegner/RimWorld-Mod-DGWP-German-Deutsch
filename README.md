@@ -11,7 +11,7 @@ Diese ins deutsche übersetzte Version achtet darauf Duplikate durch Community-M
 
 Link zum Original Mod: https://steamcommunity.com/sharedfiles/filedetails/?id=1542854752<br>
 
-Mod by 3dgGrunge<br>
+Mod by 3dGrunge<br>
 Translated by Endgegner<br>
 
 <b>License</b>
