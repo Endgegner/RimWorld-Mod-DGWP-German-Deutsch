@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<HediffDef ParentName="DiseaseBase">
+	<defName>DGWP_hediff_entangled</defName>
+	<label>entangled</label>
+	<makesAlert>false</makesAlert>
+	<tendable>true</tendable>
+	<comps>
+		<li Class="HediffCompProperties_Disappears">
+			<disappearsAfterTicks>
+			<min>2000</min>
+			<max>20000</max>
+			</disappearsAfterTicks>
+		</li>
+		<li Class="HediffCompProperties_TendDuration">
+        <baseTendDurationHours>48</baseTendDurationHours>
+        <disappearsAtTotalTendQuality>1</disappearsAtTotalTendQuality>
+      </li>
+	</comps>
+	<stages>
+		<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<setMax>0.1</setMax>
+				</li>
+				<li>
+					<capacity>Manipulation</capacity>
+					<setMax>0.33</setMax>
+				</li>
+			</capMods>
+		</li>
+	</stages>
+</HediffDef>
+
+<HediffDef ParentName="InjuryBase">
+	<defName>DGWP_Entangle_hediff</defName>
+	<label>tripped</label>
+	<displayWound>false</displayWound>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+		<disappearsAfterTicks>
+			<min>500</min>
+			<max>1000</max>
+		</disappearsAfterTicks>
+      </li>
+    </comps>
+	<stages>
+		<li>
+			<capMods>
+				<li>
+					<capacity>Moving</capacity>
+					<setMax>0.25</setMax>
+				</li>
+				<li>
+					<capacity>Manipulation</capacity>
+					<setMax>0.33</setMax>
+				</li>
+			</capMods>
+			<hediffGivers>
+				<li Class="HediffGiver_Random">
+				<hediff>DGWP_hediff_entangled</hediff>
+				<mtbDays>0.05</mtbDays>
+				<partsToAffect>
+					<li>Body</li>
+					<li>Torso</li>
+				</partsToAffect>
+				</li>
+			</hediffGivers>
+		</li>
+	</stages>
+	<injuryProps>
+		<painPerSeverity>0</painPerSeverity>
+		<canMerge>false</canMerge>
+		<destroyedLabel>Destroyed</destroyedLabel>
+		<destroyedOutLabel>Ruptured</destroyedOutLabel>
+	</injuryProps>
+</HediffDef>	
+
+</Defs>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+ <!-- ===========================Nets=================================== -->
+  <DamageDef>
+    <defName>DGWP_NetEntangle</defName>
+    <label>entangled</label>
+	<workerClass>DamageWorker_AddInjury</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has died struggling to break free.</deathMessage>
+    <hediff>DGWP_Entangle_hediff</hediff>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Blunt</impactSoundType>
+    <armorCategory>Blunt</armorCategory>
+	<makesBlood>false</makesBlood>
+  </DamageDef>
+  
+ <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>DGWP_Net_Thrown</defName>
+    <label>net</label>
+    <graphicData>
+      <texPath>Projectile/DGWP_Net_Thrown</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>DGWP_NetEntangle</damageDef>	<!-- attention -->
+      <damageAmountBase>1</damageAmountBase>
+      <speed>20</speed>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>DGWP_battleNet</defName>
+    <label>weighted net</label>
+    <description>A simple weighted net, made to be thrown.  If only you had another weapon to finish the job.</description>
+    <graphicData>
+      <texPath>DGWP_battleNet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_BeatFire</soundInteract>
+	<costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>2000</WorkToMake>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+	  <Mass>2.8</Mass>
+	  
+    </statBases>
+    <weaponTags>
+      <li>NeolithicRangedHeavy</li>
+	  <li>DGWP</li>
+    </weaponTags>
+	<recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+	  <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>DGWP_Net_Thrown</defaultProjectile>
+        <warmupTime>3.3</warmupTime>
+        <range>20</range>
+        <soundCast>Interact_BeatFire</soundCast>
+      </li>
+    </verbs>
+	<tools>
+      <li>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6.4</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+</Defs>

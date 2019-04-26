@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Sling -->
+  <DGWP_Bullet_Sling.label>Stein</DGWP_Bullet_Sling.label>
+  <DGWP_Sling.label>Schleuder</DGWP_Sling.label>
+  <DGWP_Sling.description>Eine einfache Waffe bestehend aus einer Lederschlaufe, in der ein Stein gewirbelt und durch die Luft geschossen werden.</DGWP_Sling.description>
+
+  <!-- Staff Sling -->
+  <DGWP_Bullet_StaffSling.label>Geschoss</DGWP_Bullet_StaffSling.label>
+  <DGWP_StaffSling.label>Stabschlinge</DGWP_StaffSling.label>
+  <DGWP_StaffSling.description>Eine einfache Waffe, die aus einer Schleuder besteht, die an einem Stab angebracht worden ist. Beruhend auf der Erkenntnis der Hebelwirkung.</DGWP_StaffSling.description>
+  <DGWP_StaffSling.tools.0.label>Schaft</DGWP_StaffSling.tools.0.label>
+  <DGWP_StaffSling.tools.1.label>Ende</DGWP_StaffSling.tools.1.label>
+
+  <DGWP_Bolt_Light.label>Kleiner Bolzen</DGWP_Bolt_Light.label>
+  <DGWP_LightCrossbow.label>Leichte Armbrust</DGWP_LightCrossbow.label>
+  <DGWP_LightCrossbow.description>Eine einfache Armbrust. Entworfen um den Nachladeprozess zu beschleunigen. Recht handlich und klein.</DGWP_LightCrossbow.description>
+
+  <DGWP_Bolt_Heavy.label>Großer Bolzen</DGWP_Bolt_Heavy.label>
+  <DGWP_HeavyCrossbow.label>Schwere Armbrust</DGWP_HeavyCrossbow.label>
+  <DGWP_HeavyCrossbow.description>Eine große Armbrust. Für den Krieg konstruiert worden. Lädt durch ihr hohes Gewicht langsamer nach, verursacht aber mehr Schaden durch entsprechende Durchschlagskraft.</DGWP_HeavyCrossbow.description>
+
+  <DGWP_Bolt_LightRepeating.label>Federbolzen</DGWP_Bolt_LightRepeating.label>
+  <DGWP_RepeatingCrossbow.label>Repetierarmbrust</DGWP_RepeatingCrossbow.label>
+  <DGWP_RepeatingCrossbow.description>Eine leichte Armbrust mit Munitionsbehälter. Konstruiert worden um in schneller Reihenfolge tödliche Bolzen zu verschießen.</DGWP_RepeatingCrossbow.description>
+
+</LanguageData>

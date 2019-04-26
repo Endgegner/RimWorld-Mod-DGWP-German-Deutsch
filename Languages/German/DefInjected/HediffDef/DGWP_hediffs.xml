@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DGWP_hediff_dart.label>Dart</DGWP_hediff_dart.label>
+  <DGWP_hediff_dart.comps.0.labelTendedWell>bandagiert</DGWP_hediff_dart.comps.0.labelTendedWell>
+  <DGWP_hediff_dart.comps.0.labelTendedWellInner>zugenäht</DGWP_hediff_dart.comps.0.labelTendedWellInner>
+  <DGWP_hediff_dart.comps.0.labelSolidTendedWell>fixiert</DGWP_hediff_dart.comps.0.labelSolidTendedWell>
+  <DGWP_hediff_dart.injuryProps.destroyedLabel>Abgeschnitten</DGWP_hediff_dart.injuryProps.destroyedLabel>
+  <DGWP_hediff_dart.injuryProps.destroyedOutLabel>Herausgeschnitten</DGWP_hediff_dart.injuryProps.destroyedOutLabel>
+  <DGWP_hediff_dart.labelNoun>Eine Wunde durch einen Dart</DGWP_hediff_dart.labelNoun>
+
+  <DGWP_hediff_toxinA.label>Nachtschattengift</DGWP_hediff_toxinA.label>
+  <DGWP_hediff_toxinA.stages.0.label>eintretend</DGWP_hediff_toxinA.stages.0.label>
+  <DGWP_hediff_toxinA.stages.1.label>anfänglich</DGWP_hediff_toxinA.stages.1.label>
+  <DGWP_hediff_toxinA.stages.2.label>moderat</DGWP_hediff_toxinA.stages.2.label>
+  <DGWP_hediff_toxinA.stages.3.label>schwerwiegend</DGWP_hediff_toxinA.stages.3.label>
+  <DGWP_hediff_toxinA.stages.4.label>extrem</DGWP_hediff_toxinA.stages.4.label>
+
+  <!-- +++++++++++++++++++++++++++++++++++  Neurotoxin +++++++++++++++++++++++++++++++++++ -->
+  <DGWP_hediff_toxinB.label>Nervengift</DGWP_hediff_toxinB.label>
+  <DGWP_hediff_toxinB.stages.0.label>einleitend</DGWP_hediff_toxinB.stages.0.label>
+  <DGWP_hediff_toxinB.stages.1.label>gering</DGWP_hediff_toxinB.stages.1.label>
+  <DGWP_hediff_toxinB.stages.2.label>moderat</DGWP_hediff_toxinB.stages.2.label>
+  <DGWP_hediff_toxinB.stages.3.label>schwerwiegend</DGWP_hediff_toxinB.stages.3.label>
+  <DGWP_hediff_toxinB.stages.4.label>extreem</DGWP_hediff_toxinB.stages.4.label>
+
+</LanguageData>

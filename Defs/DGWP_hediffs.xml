@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs> 
+
+<HediffDef ParentName="InjuryBase">
+	<defName>DGWP_hediff_dart</defName>
+	<label>dart</label>
+    <labelNoun>a dart wound</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+      </li>
+      <li Class="HediffCompProperties_Infecter">
+        <infectionChance>0.1</infectionChance>
+      </li>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>dart scar</permanentLabel>
+      </li>
+    </comps>
+	<injuryProps>
+      <painPerSeverity>0.0125</painPerSeverity>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+		<canMerge>false</canMerge>
+		<destroyedLabel>Cut off</destroyedLabel>
+		<destroyedOutLabel>Cut out</destroyedOutLabel>
+	</injuryProps>
+</HediffDef>
+
+<HediffDef ParentName="InfectionBase">
+	<defName>DGWP_hediff_toxinA</defName>
+	<label>Potato Toxin</label>
+	<lethalSeverity>5</lethalSeverity>
+	<makesSickThought>true</makesSickThought>
+	<taleOnVisible>IllnessRevealed</taleOnVisible>
+	<tendable>true</tendable>
+	<comps>
+		<li Class="HediffCompProperties_Immunizable">
+			<immunityPerDayNotSick>-0.5</immunityPerDayNotSick>
+			<immunityPerDaySick>0.25</immunityPerDaySick>
+			<severityPerDayNotImmune>1</severityPerDayNotImmune>
+			<severityPerDayImmune>-1</severityPerDayImmune>
+		</li>
+		<li Class="HediffCompProperties_TendDuration">
+			<baseTendDurationHours>0</baseTendDurationHours>
+			<disappearsAtTotalTendQuality>2</disappearsAtTotalTendQuality>
+		</li>
+    </comps>
+	<stages>
+		<li>
+			<label>initial</label>
+			<becomeVisible>false</becomeVisible>
+		</li>
+		<li>
+			<label>minor</label>
+			<minSeverity>0.1</minSeverity>
+			<capMods>
+				<li>
+					<capacity>Consciousness</capacity>
+					<offset>-0.05</offset>
+				</li>
+				<li>
+					<capacity>Manipulation</capacity>
+					<offset>-0.05</offset>
+				</li>
+			</capMods>
+		</li>
+		<li>
+			<label>moderate</label>
+			<minSeverity>0.3</minSeverity>
+			<capMods>
+				<li>
+					<capacity>Consciousness</capacity>
+					<offset>-0.1</offset>
+				</li>
+				<li>
+					<capacity>Manipulation</capacity>
+					<offset>-0.1</offset>
+				</li>
+			</capMods>
+		</li>
+		<li>
+			<label>serious</label>
+			<minSeverity>0.5</minSeverity>
+			<vomitMtbDays>5</vomitMtbDays>
+			<capMods>
+				<li>
+					<capacity>Consciousness</capacity>
+					<offset>-0.3</offset>
+				</li>
+				<li>
+					<capacity>Manipulation</capacity>
+					<offset>-0.3</offset>
+				</li>
+			</capMods>
+		</li>
+		<li>
+			<label>extreem</label>
+			<minSeverity>0.75</minSeverity>
+			<vomitMtbDays>1</vomitMtbDays>
+			<capMods>
+				<li>
+					<capacity>Consciousness</capacity>
+					<setMax>0.1</setMax>
+				</li>
+				<li>
+					<capacity>Manipulation</capacity>
+					<offset>-0.5</offset>
+				</li>
+			</capMods>
+			<hediffGivers>
+				<li Class="HediffGiver_Random">
+					<hediff>HeartAttack</hediff>
+					<mtbDays>500</mtbDays>
+					<partsToAffect>
+						<li>Heart</li>
+					</partsToAffect>
+				</li>
+			</hediffGivers>
+		</li>
+	</stages>
+</HediffDef>	
+
+<!-- +++++++++++++++++++++++++++++++++++  Neurotoxin +++++++++++++++++++++++++++++++++++ -->
+
+<HediffDef ParentName="InfectionBase">
+	<defName>DGWP_hediff_toxinB</defName>
+	<hediffClass>HediffWithComps</hediffClass>
+	<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+	<label>Poisoned Dart</label>
+	<lethalSeverity>2</lethalSeverity>
+	<makesSickThought>true</makesSickThought>
+	<taleOnVisible>IllnessRevealed</taleOnVisible>
+	<tendable>true</tendable>
+	<injuryProps>
+      <bleedRate>0.05</bleedRate>
+      <painPerSeverity>0.0125</painPerSeverity>
+    </injuryProps>
+	<comps>
+		<li Class="HediffCompProperties_Immunizable">
+			<immunityPerDayNotSick>-0.06</immunityPerDayNotSick>
+			<immunityPerDaySick>0.2</immunityPerDaySick>
+			<severityPerDayNotImmune>1</severityPerDayNotImmune>
+			<severityPerDayImmune>-0.3</severityPerDayImmune>
+		</li>
+		<li Class="HediffCompProperties_TendDuration">
+			<baseTendDurationHours>0.5</baseTendDurationHours>
+			<disappearsAtTotalTendQuality>2</disappearsAtTotalTendQuality>
+			<severityPerDayTended>-0.2</severityPerDayTended>
+		</li>
+    </comps>
+	<stages>
+		<li>
+			<label>initial</label>
+			<becomeVisible>false</becomeVisible>
+		</li>
+		<li>
+			<label>minor</label>
+			<minSeverity>0.1</minSeverity>
+			<capMods>
+				<li>
+					<capacity>Consciousness</capacity>
+					<offset>-0.05</offset>
+				</li>
+				<li>
+					<capacity>BloodPumping</capacity>
+					<offset>-0.05</offset>
+				</li>
+				<li>
+					<capacity>BloodFiltration</capacity>
+					<offset>-0.05</offset>
+				</li>
+				<li>
+					<capacity>Breathing</capacity>
+					<offset>-0.05</offset>
+				</li>
+			</capMods>
+		</li>
+		<li>
+			<label>moderate</label>
+			<minSeverity>0.3</minSeverity>
+			<capMods>
+				<li>
+					<capacity>Consciousness</capacity>
+					<offset>-0.10</offset>
+				</li>
+				<li>
+					<capacity>BloodPumping</capacity>
+					<offset>-0.10</offset>
+				</li>
+				<li>
+					<capacity>BloodFiltration</capacity>
+					<offset>-0.10</offset>
+				</li>
+				<li>
+					<capacity>Breathing</capacity>
+					<offset>-0.1</offset>
+				</li>
+			</capMods>
+			<hediffGivers>
+				<li Class="HediffGiver_Random">
+					<hediff>HeartAttack</hediff>
+					<mtbDays>250</mtbDays>
+					<partsToAffect>
+						<li>Heart</li>
+					</partsToAffect>
+				</li>
+			</hediffGivers>
+		</li>
+		<li>
+			<label>serious</label>
+			<minSeverity>0.5</minSeverity>
+			<vomitMtbDays>5</vomitMtbDays>
+			<capMods>
+				<li>
+					<capacity>Consciousness</capacity>
+					<offset>-0.2</offset>
+				</li>
+				<li>
+					<capacity>BloodPumping</capacity>
+					<offset>-0.2</offset>
+				</li>
+				<li>
+					<capacity>BloodFiltration</capacity>
+					<offset>-0.2</offset>
+				</li>
+				<li>
+					<capacity>Breathing</capacity>
+					<offset>-0.2</offset>
+				</li>
+			</capMods>
+			<hediffGivers>
+				<li Class="HediffGiver_Random">
+					<hediff>HeartAttack</hediff>
+					<mtbDays>100</mtbDays>
+					<partsToAffect>
+						<li>Heart</li>
+					</partsToAffect>
+				</li>
+			</hediffGivers>
+		</li>
+		<li>
+			<label>extreem</label>
+			<minSeverity>0.75</minSeverity>
+			<vomitMtbDays>1</vomitMtbDays>
+			<capMods>
+				<li>
+					<capacity>Consciousness</capacity>
+					<offset>-0.33</offset>
+				</li>
+				<li>
+					<capacity>BloodPumping</capacity>
+					<offset>-0.33</offset>
+				</li>
+				<li>
+					<capacity>BloodFiltration</capacity>
+					<offset>-0.33</offset>
+				</li>
+				<li>
+					<capacity>Breathing</capacity>
+					<offset>-0.33</offset>
+				</li>
+			</capMods>
+			<hediffGivers>
+				<li Class="HediffGiver_Random">
+					<hediff>HeartAttack</hediff>
+					<mtbDays>30</mtbDays>
+					<partsToAffect>
+						<li>Heart</li>
+					</partsToAffect>
+				</li>
+			</hediffGivers>
+		</li>
+	</stages>
+</HediffDef>	
+
+</Defs>
+
+
+
+
+

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Cutting Weapons -->
+  <DGWP_MeleeWeapon_Hatchet.label>Beil</DGWP_MeleeWeapon_Hatchet.label>
+  <DGWP_MeleeWeapon_Hatchet.description>Eine kleine Axt. Leicht und handlich im Umgang.</DGWP_MeleeWeapon_Hatchet.description>
+  <DGWP_MeleeWeapon_Hatchet.tools.0.label>Stiel</DGWP_MeleeWeapon_Hatchet.tools.0.label>
+  <DGWP_MeleeWeapon_Hatchet.tools.1.label>Rückseite</DGWP_MeleeWeapon_Hatchet.tools.1.label>
+  <DGWP_MeleeWeapon_Hatchet.tools.2.label>Klinge</DGWP_MeleeWeapon_Hatchet.tools.2.label>
+
+  <DGWP_MeleeWeapon_Battleaxe.label>Beserker Axt</DGWP_MeleeWeapon_Battleaxe.label>
+  <DGWP_MeleeWeapon_Battleaxe.description>Eine wuchtige Axt, die in der Regel verwendet wird, um Schädel zu spalten. Ihre beidseitigen Klingen lassen selbst wildeste Hiebe ihr Ziel finden.</DGWP_MeleeWeapon_Battleaxe.description>
+  <DGWP_MeleeWeapon_Battleaxe.tools.0.label>Griff</DGWP_MeleeWeapon_Battleaxe.tools.0.label>
+  <DGWP_MeleeWeapon_Battleaxe.tools.1.label>Klinge</DGWP_MeleeWeapon_Battleaxe.tools.1.label>
+
+  <DGWP_MeleeWeapon_Waraxe.label>Kriegsaxt</DGWP_MeleeWeapon_Waraxe.label>
+  <DGWP_MeleeWeapon_Waraxe.description>Eine mächtige Axt, die am besten wild geschwungen auf einem Schlachtfeld zur vollen Geltung kommt. Sie hat einen zusätzlichen Dorn auf der Rückseite um auch in Rüstungen einzudringen.</DGWP_MeleeWeapon_Waraxe.description>
+  <DGWP_MeleeWeapon_Waraxe.tools.0.label>Griff</DGWP_MeleeWeapon_Waraxe.tools.0.label>
+  <DGWP_MeleeWeapon_Waraxe.tools.1.label>Seite</DGWP_MeleeWeapon_Waraxe.tools.1.label>
+  <DGWP_MeleeWeapon_Waraxe.tools.2.label>Dorn</DGWP_MeleeWeapon_Waraxe.tools.2.label>
+
+  <DGWP_MeleeWeapon_Cleaver.label>Hackbeil</DGWP_MeleeWeapon_Cleaver.label>
+  <DGWP_MeleeWeapon_Cleaver.description>Eine breite Klinge auf einem Holzschaft, die besonders gern von Metzgern für das Teilen von zähem Fleisch verwendet wird.</DGWP_MeleeWeapon_Cleaver.description>
+  <DGWP_MeleeWeapon_Cleaver.tools.0.label>Griff</DGWP_MeleeWeapon_Cleaver.tools.0.label>
+  <DGWP_MeleeWeapon_Cleaver.tools.1.label>Schneide</DGWP_MeleeWeapon_Cleaver.tools.1.label>
+  <!-- Mähdrescher, Hippe, Weapons Plus kompatibel -->
+  <DGWP_MeleeWeapon_Scythe.label>Sense</DGWP_MeleeWeapon_Scythe.label>
+  <DGWP_MeleeWeapon_Scythe.description>Ein Werkzeug zum Mähen von Getreide und Gras. Die lange gebogene Klinge wird an einem hohen Stab geführt.</DGWP_MeleeWeapon_Scythe.description>
+  <DGWP_MeleeWeapon_Scythe.tools.0.label>Griff</DGWP_MeleeWeapon_Scythe.tools.0.label>
+  <DGWP_MeleeWeapon_Scythe.tools.1.label>Schneide</DGWP_MeleeWeapon_Scythe.tools.1.label>
+
+  <!-- Hand Weapons -->
+  <DGWP_MeleeWeapon_Claw.label>Klauen</DGWP_MeleeWeapon_Claw.label>
+  <DGWP_MeleeWeapon_Claw.description>Ein Handschuh mit 3 scharfen Klingen, die an der Rückseite befestigt wurden.</DGWP_MeleeWeapon_Claw.description>
+  <DGWP_MeleeWeapon_Claw.tools.0.label>Spitzen</DGWP_MeleeWeapon_Claw.tools.0.label>
+  <DGWP_MeleeWeapon_Claw.tools.1.label>Schneide</DGWP_MeleeWeapon_Claw.tools.1.label>
+
+  <DGWP_MeleeWeapon_Knuckles.label>Knöchelpanzer</DGWP_MeleeWeapon_Knuckles.label>
+  <DGWP_MeleeWeapon_Knuckles.description>Verleiht den Hieben des Trägers durch sein Eigengewicht ungeheure Stärke. Simpel und gut zu verstecken.</DGWP_MeleeWeapon_Knuckles.description>
+  <DGWP_MeleeWeapon_Knuckles.tools.0.label>Knöchel</DGWP_MeleeWeapon_Knuckles.tools.0.label>
+
+  <!-- Stabbing Weapons -->
+  <DGWP_MeleeWeapon_Rapier.label>Rapier</DGWP_MeleeWeapon_Rapier.label>
+  <DGWP_MeleeWeapon_Rapier.description>Ein leichtes, dünnes und sehr spitzes Schwert. Es erlaubt eine höhere Wendikeit und kann mit einem einzigen gut geführten Stoß töten.</DGWP_MeleeWeapon_Rapier.description>
+  <DGWP_MeleeWeapon_Rapier.tools.0.label>Griff</DGWP_MeleeWeapon_Rapier.tools.0.label>
+  <DGWP_MeleeWeapon_Rapier.tools.1.label>Schneide</DGWP_MeleeWeapon_Rapier.tools.1.label>
+  <DGWP_MeleeWeapon_Rapier.tools.2.label>Spitze</DGWP_MeleeWeapon_Rapier.tools.2.label>
+
+  <!-- Blunt Weapons -->
+  <DGWP_MeleeWeapon_Warhammer.label>Kriegshammer</DGWP_MeleeWeapon_Warhammer.label>
+  <DGWP_MeleeWeapon_Warhammer.description>Eine brutale Waffe, die für den Nahkampf erdacht wurde und spielend leicht Knochen zertrümmert.</DGWP_MeleeWeapon_Warhammer.description>
+  <DGWP_MeleeWeapon_Warhammer.tools.0.label>Griff</DGWP_MeleeWeapon_Warhammer.tools.0.label>
+  <DGWP_MeleeWeapon_Warhammer.tools.1.label>Kopf</DGWP_MeleeWeapon_Warhammer.tools.1.label>
+
+  <DGWP_MeleeWeapon_Scepter.label>Szepter</DGWP_MeleeWeapon_Scepter.label>
+  <DGWP_MeleeWeapon_Scepter.description>Ein kleiner verzierter Stab, der oft in einer umklammerten Kugel endet und von Herrschern bei zeremoniellen Anlässen als Symbol der Souveränität getragen wurde.</DGWP_MeleeWeapon_Scepter.description>
+  <DGWP_MeleeWeapon_Scepter.tools.0.label>Stiel</DGWP_MeleeWeapon_Scepter.tools.0.label>
+  <DGWP_MeleeWeapon_Scepter.tools.1.label>Kopf</DGWP_MeleeWeapon_Scepter.tools.1.label>
+
+  <DGWP_MeleeWeapon_Staff.label>Stab</DGWP_MeleeWeapon_Staff.label>
+  <DGWP_MeleeWeapon_Staff.description>Eine langer solider Stab, den man recht effektiv als Waffe nutzen kann.</DGWP_MeleeWeapon_Staff.description>
+  <DGWP_MeleeWeapon_Staff.tools.0.label>Stiel</DGWP_MeleeWeapon_Staff.tools.0.label>
+  <DGWP_MeleeWeapon_Staff.tools.1.label>Ende</DGWP_MeleeWeapon_Staff.tools.1.label>
+  <DGWP_MeleeWeapon_Staff.tools.2.label>Kopf</DGWP_MeleeWeapon_Staff.tools.2.label>
+
+  <DGWP_MeleeWeapon_Skullclub.label>Schädelkeule</DGWP_MeleeWeapon_Skullclub.label>
+  <DGWP_MeleeWeapon_Skullclub.description>Eine dicke Keule zum Zerschmettern seiner Feinde. Am Kopfstück des Schaftes wird in der Regel ein großer Schädel befestigt.</DGWP_MeleeWeapon_Skullclub.description>
+  <DGWP_MeleeWeapon_Skullclub.tools.0.label>Griff</DGWP_MeleeWeapon_Skullclub.tools.0.label>
+  <DGWP_MeleeWeapon_Skullclub.tools.1.label>Kopf</DGWP_MeleeWeapon_Skullclub.tools.1.label>
+
+  <!-- Cutting Weapons -->
+  <DGWP_MeleeWeapon_Macuahuitl.label>Wuchtschwert</DGWP_MeleeWeapon_Macuahuitl.label>
+  <DGWP_MeleeWeapon_Macuahuitl.description>Ein besonders breitgeformtes Schwert um den Schlägen mehr Kraft zu verleihen.</DGWP_MeleeWeapon_Macuahuitl.description>
+  <DGWP_MeleeWeapon_Macuahuitl.tools.0.label>Griff</DGWP_MeleeWeapon_Macuahuitl.tools.0.label>
+  <DGWP_MeleeWeapon_Macuahuitl.tools.1.label>Reißseite</DGWP_MeleeWeapon_Macuahuitl.tools.1.label>
+
+</LanguageData>

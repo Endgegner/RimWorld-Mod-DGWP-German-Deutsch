@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, ElectricSmithy, FueledSmithy, CraftingSpot -->
+  <Make_DGWP_Blowgun.label>Stelle ein Blasrohr her</Make_DGWP_Blowgun.label>
+  <Make_DGWP_Blowgun.description>Stelle ein Blasrohr her.</Make_DGWP_Blowgun.description>
+  <Make_DGWP_Blowgun.jobString>Waffenherstellung.</Make_DGWP_Blowgun.jobString>
+
+  <Make_DGWP_BlowgunSolanine.label>Stelle ein Blasrohr Nachtschatten her</Make_DGWP_BlowgunSolanine.label>
+  <Make_DGWP_BlowgunSolanine.description>Stelle ein Blasrohr Nachtschatten her.</Make_DGWP_BlowgunSolanine.description>
+  <Make_DGWP_BlowgunSolanine.jobString>Waffenherstellung.</Make_DGWP_BlowgunSolanine.jobString>
+
+  <Make_DGWP_blowgun_neurotoxin.label>Stelle ein Blasrohr Neurotoxin her</Make_DGWP_blowgun_neurotoxin.label>
+  <Make_DGWP_blowgun_neurotoxin.description>Stelle ein Blasrohr Neurotoxin her.</Make_DGWP_blowgun_neurotoxin.description>
+  <Make_DGWP_blowgun_neurotoxin.jobString>Waffenherstellung.</Make_DGWP_blowgun_neurotoxin.jobString>
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, CraftingSpot -->
+  <Make_DGWP_MeleeWeapon_Hatchet.label>Stelle ein Beil her</Make_DGWP_MeleeWeapon_Hatchet.label>
+  <Make_DGWP_MeleeWeapon_Hatchet.description>Stelle ein Beil her.</Make_DGWP_MeleeWeapon_Hatchet.description>
+  <Make_DGWP_MeleeWeapon_Hatchet.jobString>Waffenherstellung.</Make_DGWP_MeleeWeapon_Hatchet.jobString>
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
+  <Make_DGWP_MeleeWeapon_Battleaxe.label>Stelle eine Beserker Axt her</Make_DGWP_MeleeWeapon_Battleaxe.label>
+  <Make_DGWP_MeleeWeapon_Battleaxe.description>Stelle eine Beserker Axt her.</Make_DGWP_MeleeWeapon_Battleaxe.description>
+  <Make_DGWP_MeleeWeapon_Battleaxe.jobString>Waffenherstellung.</Make_DGWP_MeleeWeapon_Battleaxe.jobString>
+
+  <Make_DGWP_MeleeWeapon_Waraxe.label>Stelle eine Kriegsaxt her</Make_DGWP_MeleeWeapon_Waraxe.label>
+  <Make_DGWP_MeleeWeapon_Waraxe.description>Stelle eine Kriegsaxt her.</Make_DGWP_MeleeWeapon_Waraxe.description>
+  <Make_DGWP_MeleeWeapon_Waraxe.jobString>Waffenherstellung.</Make_DGWP_MeleeWeapon_Waraxe.jobString>
+
+  <Make_DGWP_MeleeWeapon_Cleaver.label>Stelle ein Hackbeil her</Make_DGWP_MeleeWeapon_Cleaver.label>
+  <Make_DGWP_MeleeWeapon_Cleaver.description>Stelle ein Hackbeil her.</Make_DGWP_MeleeWeapon_Cleaver.description>
+  <Make_DGWP_MeleeWeapon_Cleaver.jobString>Waffenherstellung.</Make_DGWP_MeleeWeapon_Cleaver.jobString>
+  <!-- Mähdrescher, Hippe -->
+  <Make_DGWP_MeleeWeapon_Scythe.label>Stelle eine Sense her</Make_DGWP_MeleeWeapon_Scythe.label>
+  <Make_DGWP_MeleeWeapon_Scythe.description>Stelle eine Sense her.</Make_DGWP_MeleeWeapon_Scythe.description>
+  <Make_DGWP_MeleeWeapon_Scythe.jobString>Waffenherstellung.</Make_DGWP_MeleeWeapon_Scythe.jobString>
+
+  <Make_DGWP_MeleeWeapon_Claw.label>Stelle Klauen her</Make_DGWP_MeleeWeapon_Claw.label>
+  <Make_DGWP_MeleeWeapon_Claw.description>Stelle Klauen her.</Make_DGWP_MeleeWeapon_Claw.description>
+  <Make_DGWP_MeleeWeapon_Claw.jobString>Waffenherstellung.</Make_DGWP_MeleeWeapon_Claw.jobString>
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, CraftingSpot, Schlagring -->
+  <Make_DGWP_MeleeWeapon_Knuckles.label>Stelle einen Knöchelpanzer her</Make_DGWP_MeleeWeapon_Knuckles.label>
+  <Make_DGWP_MeleeWeapon_Knuckles.description>Stelle einen Knöchelpanzer her.</Make_DGWP_MeleeWeapon_Knuckles.description>
+  <Make_DGWP_MeleeWeapon_Knuckles.jobString>Waffenherstellung.</Make_DGWP_MeleeWeapon_Knuckles.jobString>
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
+  <Make_DGWP_MeleeWeapon_Rapier.label>Stelle ein Rapier her</Make_DGWP_MeleeWeapon_Rapier.label>
+  <Make_DGWP_MeleeWeapon_Rapier.description>Stelle ein Rapier her.</Make_DGWP_MeleeWeapon_Rapier.description>
+  <Make_DGWP_MeleeWeapon_Rapier.jobString>Waffenherstellung.</Make_DGWP_MeleeWeapon_Rapier.jobString>
+
+  <Make_DGWP_MeleeWeapon_Warhammer.label>Stelle einen Kriegshammer her</Make_DGWP_MeleeWeapon_Warhammer.label>
+  <Make_DGWP_MeleeWeapon_Warhammer.description>Stelle einen Kriegshammer her.</Make_DGWP_MeleeWeapon_Warhammer.description>
+  <Make_DGWP_MeleeWeapon_Warhammer.jobString>Waffenherstellung.</Make_DGWP_MeleeWeapon_Warhammer.jobString>
+
+  <Make_DGWP_MeleeWeapon_Scepter.label>Stelle ein Szepter her</Make_DGWP_MeleeWeapon_Scepter.label>
+  <Make_DGWP_MeleeWeapon_Scepter.description>Stelle ein Szepter her.</Make_DGWP_MeleeWeapon_Scepter.description>
+  <Make_DGWP_MeleeWeapon_Scepter.jobString>Waffenherstellung.</Make_DGWP_MeleeWeapon_Scepter.jobString>
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, CraftingSpot -->
+  <Make_DGWP_MeleeWeapon_Staff.label>Stelle einen Stab her</Make_DGWP_MeleeWeapon_Staff.label>
+  <Make_DGWP_MeleeWeapon_Staff.description>Stelle einen Stab her.</Make_DGWP_MeleeWeapon_Staff.description>
+  <Make_DGWP_MeleeWeapon_Staff.jobString>Waffenherstellung.</Make_DGWP_MeleeWeapon_Staff.jobString>
+
+  <Make_DGWP_MeleeWeapon_Skullclub.label>Stelle eine Schädelkeule her</Make_DGWP_MeleeWeapon_Skullclub.label>
+  <Make_DGWP_MeleeWeapon_Skullclub.description>Stelle eine Schädelkeule her.</Make_DGWP_MeleeWeapon_Skullclub.description>
+  <Make_DGWP_MeleeWeapon_Skullclub.jobString>Waffenherstellung.</Make_DGWP_MeleeWeapon_Skullclub.jobString>
+  <!-- Kompatibilität -->
+  <Make_DGWP_MeleeWeapon_Macuahuitl.label>Stelle ein Wuchtschwert her</Make_DGWP_MeleeWeapon_Macuahuitl.label>
+  <Make_DGWP_MeleeWeapon_Macuahuitl.description>Stelle ein Wuchtschwert her.</Make_DGWP_MeleeWeapon_Macuahuitl.description>
+  <Make_DGWP_MeleeWeapon_Macuahuitl.jobString>Waffenherstellung.</Make_DGWP_MeleeWeapon_Macuahuitl.jobString>
+
+  <Make_DGWP_battleNet.label>Stelle ein Fangnetz her</Make_DGWP_battleNet.label>
+  <Make_DGWP_battleNet.description>Stelle ein Fangnetz her.</Make_DGWP_battleNet.description>
+  <Make_DGWP_battleNet.jobString>Waffenherstellung.</Make_DGWP_battleNet.jobString>
+
+  <Make_DGWP_Sling.label>Stelle eine Schleuder her</Make_DGWP_Sling.label>
+  <Make_DGWP_Sling.description>Stelle eine Schleuder her.</Make_DGWP_Sling.description>
+  <Make_DGWP_Sling.jobString>Waffenherstellung.</Make_DGWP_Sling.jobString>
+
+  <Make_DGWP_StaffSling.label>Stelle eine Stabschlinge her</Make_DGWP_StaffSling.label>
+  <Make_DGWP_StaffSling.description>Stelle eine Stabschlinge her.</Make_DGWP_StaffSling.description>
+  <Make_DGWP_StaffSling.jobString>Waffenherstellung.</Make_DGWP_StaffSling.jobString>
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, ElectricSmithy, FueledSmithy, CraftingSpot -->
+  <Make_DGWP_LightCrossbow.label>Stelle eine leichte Armbrust her</Make_DGWP_LightCrossbow.label>
+  <Make_DGWP_LightCrossbow.description>Stelle eine leichte Armbrust her.</Make_DGWP_LightCrossbow.description>
+  <Make_DGWP_LightCrossbow.jobString>Waffenherstellung.</Make_DGWP_LightCrossbow.jobString>
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, ElectricSmithy, FueledSmithy -->
+  <Make_DGWP_HeavyCrossbow.label>Stelle eine schwere Armbrust her</Make_DGWP_HeavyCrossbow.label>
+  <Make_DGWP_HeavyCrossbow.description>Stelle eine schwere Armbrust her.</Make_DGWP_HeavyCrossbow.description>
+  <Make_DGWP_HeavyCrossbow.jobString>Waffenherstellung.</Make_DGWP_HeavyCrossbow.jobString>
+
+  <Make_DGWP_RepeatingCrossbow.label>Stelle eine Repetierarmbrust her</Make_DGWP_RepeatingCrossbow.label>
+  <Make_DGWP_RepeatingCrossbow.description>Stelle eine Repetierarmbrust her.</Make_DGWP_RepeatingCrossbow.description>
+  <Make_DGWP_RepeatingCrossbow.jobString>Waffenherstellung.</Make_DGWP_RepeatingCrossbow.jobString>
+
+</LanguageData>

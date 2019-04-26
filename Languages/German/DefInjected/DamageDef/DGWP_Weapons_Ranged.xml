@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Ranged Weapons -->
+  <DGWP_slingBullet.label>Geschoss</DGWP_slingBullet.label>
+  <DGWP_slingBullet.deathMessage>{0} wurde gesteinigt.</DGWP_slingBullet.deathMessage>
+
+</LanguageData>

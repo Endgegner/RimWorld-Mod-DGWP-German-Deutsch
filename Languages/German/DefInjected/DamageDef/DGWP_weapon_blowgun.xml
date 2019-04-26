@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Damage Defs -->
+  <DGWP_dmg_dart.label>Dart</DGWP_dmg_dart.label>
+  <DGWP_dmg_dart.deathMessage>{0} starb durch einen Dart.</DGWP_dmg_dart.deathMessage>
+  <DGWP_dmg_toxinA.label>Giftdart</DGWP_dmg_toxinA.label>
+  <DGWP_dmg_toxinA.deathMessage>{0} starb durch Gift.</DGWP_dmg_toxinA.deathMessage>
+  <DGWP_dmg_toxinB.label>Giftdart</DGWP_dmg_toxinB.label>
+  <DGWP_dmg_toxinB.deathMessage>{0} starb durch Gift.</DGWP_dmg_toxinB.deathMessage>
+
+</LanguageData>

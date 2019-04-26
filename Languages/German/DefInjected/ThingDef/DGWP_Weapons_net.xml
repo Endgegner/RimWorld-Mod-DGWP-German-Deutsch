@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Nets -->
+  <DGWP_Net_Thrown.label>Netz</DGWP_Net_Thrown.label>
+  <DGWP_battleNet.label>Fangnetz</DGWP_battleNet.label>
+  <DGWP_battleNet.description>Ein Netz mit Gewichten an den Enden gemacht worden um geworfen zu werden.</DGWP_battleNet.description>
+
+</LanguageData>

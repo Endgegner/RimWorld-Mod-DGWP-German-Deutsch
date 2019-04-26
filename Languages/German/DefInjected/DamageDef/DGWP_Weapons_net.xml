@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Nets -->
+  <DGWP_NetEntangle.label>Verheddert</DGWP_NetEntangle.label>
+  <DGWP_NetEntangle.deathMessage>{0} ist beim Versuch gestorben sich zu befreien.</DGWP_NetEntangle.deathMessage>
+
+</LanguageData>

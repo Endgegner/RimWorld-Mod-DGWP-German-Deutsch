@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+ <!-- =================================== Damage Defs =================================== -->
+	<DamageDef Name="DGWP_dmg_dart">
+		<defName>DGWP_dmg_dart</defName>
+		<label>dart</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} was killed by a dart.</deathMessage>
+		<hediff>DGWP_hediff_dart</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Bullet</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<isRanged>true</isRanged>
+	</DamageDef>
+	<DamageDef ParentName="DGWP_dmg_dart">
+		<defName>DGWP_dmg_toxinA</defName>
+		<label>poisonous dart</label>
+		<additionalHediffs>
+		<li>
+			<hediff>DGWP_hediff_toxinA</hediff>
+			<severityPerDamageDealt>0.001</severityPerDamageDealt>
+			<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+		</li>
+		</additionalHediffs>
+	</DamageDef>
+	<DamageDef ParentName="DGWP_dmg_dart">
+		<defName>DGWP_dmg_toxinB</defName>
+		<label>poisonous dart</label>
+		<additionalHediffs>
+		<li>
+			<hediff>DGWP_hediff_toxinB</hediff>
+			<severityPerDamageDealt>0.01</severityPerDamageDealt>
+			<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+		</li>
+		</additionalHediffs>
+	</DamageDef>
+<!-- =================================== Projectiles ===================================-->
+<!-- ===================================    Basic    ===================================-->
+ <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>DGWP_Projectile_Dart</defName>
+    <label>dart</label>
+    <graphicData>
+      <texPath>Projectile/DGWP_Projectile_Dart</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>DGWP_dmg_dart</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <speed>30</speed>
+    </projectile>
+  </ThingDef>
+<!-- ===================================  Poison A  ===================================-->
+ <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>DGWP_Projectile_DartA</defName>
+    <label>poison tipped dart</label>
+    <graphicData>
+      <texPath>Projectile/DGWP_Projectile_Dart</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>DGWP_dmg_toxinA</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <speed>30</speed>
+    </projectile>
+  </ThingDef>
+<!-- ===================================  Poison B  ===================================-->
+ <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>DGWP_Projectile_DartB</defName>
+    <label>poison tipped dart</label>
+    <graphicData>
+      <texPath>Projectile/DGWP_Projectile_Dart</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>DGWP_dmg_toxinB</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <speed>30</speed>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>DGWP_Blowgun</defName>
+    <label>blowgun</label>
+    <description>A hollow pipe made to shoot darts with compressed air, usually from ones mouth.</description>
+    <graphicData>
+      <texPath>DGWP_Blowgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Bow_Small</soundInteract>
+	<costStuffCount>20</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+	  <li>Woody</li>
+	  <li>Stony</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.30</AccuracyLong>
+      <RangedWeapon_Cooldown>2.75</RangedWeapon_Cooldown>
+	  <Mass>0.5</Mass>
+	  
+    </statBases>
+	<weaponTags>
+      <li>NeolithicRangedBasic</li>
+	  <li>DGWPTwohand</li>
+    </weaponTags>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>DGWP_Projectile_Dart</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>24</range>
+        <soundCast>Bow_Small</soundCast>
+      </li>
+	</verbs>
+	<tools>
+	  <li>
+		<capacities>
+		  <li>Blunt</li>
+		</capacities>
+		<power>6</power>
+		<cooldownTime>1.6</cooldownTime>
+	  </li>
+	</tools>
+    
+  </ThingDef>
+  
+  <!--+++++++++++++++++++++++++++++++++++Poisonous Blowguns++++++++++++++++++++++++++++++++-->
+  
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>DGWP_BlowgunSolanine</defName>
+    <label>blowgun solanine</label>
+    <description>A blowgun with solanine tipped darts.</description>
+    <graphicData>
+      <texPath>DGWP_BlowgunA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Bow_Small</soundInteract>
+	<costStuffCount>10</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+	  <li>Woody</li>
+	  <li>Stony</li>
+    </stuffCategories>
+	<costList>
+		<RawPotatoes>20</RawPotatoes>
+		<DGWP_Blowgun>1</DGWP_Blowgun>
+	</costList>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.30</AccuracyLong>
+      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+	  <Mass>0.5</Mass>
+	  
+    </statBases>
+	<weaponTags>
+      <li>NeolithicRangedHeavy</li>
+	  <li>DGWPTwohand</li>
+    </weaponTags>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+	  <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>DGWP_Projectile_DartA</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>20</range>
+        <soundCast>Bow_Small</soundCast>
+      </li>
+	</verbs>
+	<tools>
+	  <li>
+		<capacities>
+		  <li>Blunt</li>
+		</capacities>
+		<power>6</power>
+		<cooldownTime>1.6</cooldownTime>
+	  </li>
+	</tools>
+  </ThingDef>
+  
+  
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>DGWP_blowgun_neurotoxin</defName>
+    <label>blowgun neurotoxin</label>
+    <description>A blowgun with neurotoxin tipped darts.</description>
+    <graphicData>
+      <texPath>DGWP_BlowgunB</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Bow_Small</soundInteract>
+	<costStuffCount>10</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+	  <li>Woody</li>
+	  <li>Stony</li>
+    </stuffCategories>
+	<costList>
+		<PsychoidLeaves>1</PsychoidLeaves>
+		<DGWP_Blowgun>1</DGWP_Blowgun>
+	</costList>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.60</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+	  <Mass>0.5</Mass>
+	  
+    </statBases>
+	<weaponTags>
+      <li>NeolithicRangedHeavy</li>
+	  <li>DGWP_2h</li>
+    </weaponTags>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+	  <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>DGWP_Projectile_DartB</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>20</range>
+        <soundCast>Bow_Small</soundCast>
+      </li>
+
+    </verbs>
+	<tools>
+	  <li>
+		<capacities>
+		  <li>Blunt</li>
+		</capacities>
+		<power>6</power>
+		<cooldownTime>1.6</cooldownTime>
+	  </li>
+	</tools>
+  </ThingDef>
+
+  </Defs>

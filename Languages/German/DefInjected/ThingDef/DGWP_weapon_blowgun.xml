@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Basic -->
+  <DGWP_Projectile_Dart.label>Dart</DGWP_Projectile_Dart.label>
+  <!-- Poison A -->
+  <DGWP_Projectile_DartA.label>In Gift getauchter Dart</DGWP_Projectile_DartA.label>
+  <!-- Poison B -->
+  <DGWP_Projectile_DartB.label>In Gift getauchter Dart</DGWP_Projectile_DartB.label>
+  <DGWP_Blowgun.label>Blasrohr</DGWP_Blowgun.label>
+  <DGWP_Blowgun.description>Ein hohles Rohr um kleine Pfeile durch komprimierte Luft zu verschießen. Wird für gewöhnlich über den Mund bedient.</DGWP_Blowgun.description>
+
+  <!-- +++++++++++++++++++++++++++++++++++Poisonous Blowguns++++++++++++++++++++++++++++++++ -->
+  <DGWP_BlowgunSolanine.label>Blasrohr Nachtschatten</DGWP_BlowgunSolanine.label>
+  <DGWP_BlowgunSolanine.description>Ein Blasrohr mit in Solanin getauchten Darts. Ein starkes Gift von Nachtschattengewächsen.</DGWP_BlowgunSolanine.description>
+  <DGWP_blowgun_neurotoxin.label>Blasrohr Neurotoxin</DGWP_blowgun_neurotoxin.label>
+  <DGWP_blowgun_neurotoxin.description>Ein Blasrohr mit in Neurotoxin getauchten Giftdarts. Wirkt direkt auf die Nervenzentren.</DGWP_blowgun_neurotoxin.description>
+
+</LanguageData>
