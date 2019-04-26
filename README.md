@@ -5,7 +5,9 @@ Deutsch Übersetzung des RimWorld-Mods Dead Goat's Weapon Pack (GER/DE Translati
 
 Ergänzt das Spiel um eine Handvoll neuer Waffen aus mittelalterlicher und neolithischer Zeit.
 
-Diese ins deutsche übersetzte Version achtet darauf Duplikate durch Community-Mods zu vermeiden und so eine harmonische Basis für weitere Addons zu schaffen. Zu den unterstützten Erweiterungen zählen u.a. Weapon Tech und SimpleWeapons. Kompatibilität mit Weapons+ besteht.
+Diese ins deutsche übersetzte Version achtet darauf Duplikate durch Community-Mods zu vermeiden und so eine harmonische Basis für weitere Addons zu schaffen.
+
+Zu den unterstützten Erweiterungen zählen u.a. Weapon Tech und SimpleWeapons. Kompatibilität mit Weapons+ besteht.
 
 <b>Achtung:</b> Dead Goat's Weapon Pack darf NICHT zusätzlich installiert werden. Es handelt sich hierbei um ein Standalone.
 
